@@ -1,4 +1,4 @@
-# IMGD4000: Flocking Project 
+# IMGD4000: K. Tse Flocking Project 
 
 ## Getting Started
 I started by following the in-class set-up tutorial. 
