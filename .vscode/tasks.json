@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "FlockingGame Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Debug",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Debug",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGame Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Debug",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"DebugGame",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"DebugGame",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGame Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"DebugGame",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Development",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Development",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGame Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Development",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Test",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Test",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGame Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Test",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Shipping",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Shipping",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGame Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"Linux",
+				"Shipping",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Debug",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Debug",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGame LinuxArm64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Debug",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGame LinuxArm64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Development",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Development",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGame LinuxArm64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Development",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Test",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Test",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGame LinuxArm64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Test",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Shipping",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Shipping",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGame LinuxArm64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGame LinuxArm64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGame",
+				"LinuxArm64",
+				"Shipping",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGameEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGameEditor",
+				"Linux",
+				"Debug",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGameEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGameEditor",
+				"Linux",
+				"Debug",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGameEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGameEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGameEditor",
+				"Linux",
+				"Debug",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGameEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGameEditor",
+				"Linux",
+				"DebugGame",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGameEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGameEditor",
+				"Linux",
+				"DebugGame",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGameEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGameEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGameEditor",
+				"Linux",
+				"DebugGame",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGameEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGameEditor",
+				"Linux",
+				"Development",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGameEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGameEditor",
+				"Linux",
+				"Development",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FlockingGameEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		},
+		{
+			"label": "FlockingGameEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"FlockingGameEditor",
+				"Linux",
+				"Development",
+				"/home/katherine/Documents/Unreal Projects/FlockingGame/FlockingGame.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/home/katherine/Linux_Unreal_Engine_5.2.1"
+			}
+		}
+	]
+}

@@ -1,0 +1,42 @@
+[
+	{
+		"file": "/home/katherine/Documents/Unreal Projects/FlockingGame/Source/FlockingGame/FlockingGame.Build.cs",
+		"arguments": [
+			"/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/katherine/Documents/Unreal Projects/FlockingGame/.vscode/compileCommands_FlockingGame/FlockingGame.249.rsp"
+		],
+		"directory": "/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Source"
+	},
+	{
+		"file": "/home/katherine/Documents/Unreal Projects/FlockingGame/Source/FlockingGame/FlockingGame.cpp",
+		"arguments": [
+			"/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/katherine/Documents/Unreal Projects/FlockingGame/.vscode/compileCommands_FlockingGame/FlockingGame.249.rsp"
+		],
+		"directory": "/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Source"
+	},
+	{
+		"file": "/home/katherine/Documents/Unreal Projects/FlockingGame/Source/FlockingGame/FlockingGame.h",
+		"arguments": [
+			"/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/katherine/Documents/Unreal Projects/FlockingGame/.vscode/compileCommands_FlockingGame/FlockingGame.249.rsp"
+		],
+		"directory": "/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Source"
+	},
+	{
+		"file": "/home/katherine/Documents/Unreal Projects/FlockingGame/Source/FlockingGame/FlockingGameGameModeBase.cpp",
+		"arguments": [
+			"/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/katherine/Documents/Unreal Projects/FlockingGame/.vscode/compileCommands_FlockingGame/FlockingGame.249.rsp"
+		],
+		"directory": "/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Source"
+	},
+	{
+		"file": "/home/katherine/Documents/Unreal Projects/FlockingGame/Source/FlockingGame/FlockingGameGameModeBase.h",
+		"arguments": [
+			"/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/home/katherine/Documents/Unreal Projects/FlockingGame/.vscode/compileCommands_FlockingGame/FlockingGame.249.rsp"
+		],
+		"directory": "/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Source"
+	}
+]

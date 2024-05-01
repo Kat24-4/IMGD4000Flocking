@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "FlockingGameEditor Editor Linux Development (FlockingGame)",
+            "compilerPath": "/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+            "compilerArgs": [
+                "-isysroot",
+                "/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "epic.ue",
+            "compileCommands": "/home/katherine/Documents/Unreal Projects/FlockingGame/.vscode/compileCommands_FlockingGame.json"
+        },
+        {
+            "name": "Linux",
+            "compilerPath": "/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+            "compilerArgs": [
+                "-isysroot",
+                "/home/katherine/Linux_Unreal_Engine_5.2.1/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "epic.ue",
+            "compileCommands": "/home/katherine/Documents/Unreal Projects/FlockingGame/.vscode/compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}
